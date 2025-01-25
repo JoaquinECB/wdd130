@@ -1,5 +1,11 @@
+:root{
+    --aside-width: 20rem;
+    --aside-border: 1px solid rgb(0 0 0 / 0.2);
+    --nav-background-color: darkblue;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--nav-background-color);
     padding:10px;
 }
 
@@ -30,9 +36,9 @@ main{
 }
 
 aside{
-    width: 20rem;
+    width: var(--aside-width);
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
+    border: var(--aside-border);
     padding: 1rem;
     background-color: #eee;
     color: #333;
