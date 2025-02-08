@@ -24,7 +24,7 @@ h1{
 
 }
 
-.art{
+#art{
     position:absolute;
     bottom: 300px;
 	background: radial-gradient(#eee, #003665);
