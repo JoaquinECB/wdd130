@@ -203,11 +203,6 @@ footer nav.footer-nav .social-links {
     text-align: center;
 }
 
-.center-map {
-    display: flex;
-    justify-content: center;
-}
-
 #contact-form .checkbox-group {
     display: flex;
     flex-direction: column;
