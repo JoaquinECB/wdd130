@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Edward's Rafting Company for more information about our exciting rafting adventures.">
+    <meta name="author" content="Edward">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us - Edward's Rafting Company</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-grid">
+            <img src="images/logo.jpeg" alt="logo" width="100">
+            <nav class="underlines">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="center-text">Contact Us</h1>
+        <div class="center-content">
+            <p>Edward's Rafting Company</p>
+            <p>Phone: +51 913968806</p>
+            <p>Email: <a href="mailto:jcaceresbello@byupathway.edu">jcaceresbello@byupathway.edu</a></p>
+        </div>
+        <div class="Map center-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7962.949376771987!2d-73.25287754315231!3d-3.706076270399173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1739900909990!5m2!1ses-419!2spe"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <section id="contact-form">
+            <fieldset>
+                <legend>
+                    <h2>Send Us a Message</h2>
+                </legend>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <p>Purpose of Message:</p>
+                    <div class="radio-group">
+                        <label for="general">General Inquiry</label>
+                        <input type="radio" id="general" name="purpose" value="general" required>
+                    </div>
+                    <div class="radio-group">
+                        <label for="booking">Booking Question</label>
+                        <input type="radio" id="booking" name="purpose" value="booking" required>
+                    </div>
+                    <div class="radio-group">
+                        <label for="suggestion">Website Suggestion</label>
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion" required>
+                    </div>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="subscribe" name="subscribe"><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </fieldset>
+        </section>
+        <h2 class="center-text">Meet Our Team</h2>
+        <div class="team-grid">
+            <figure>
+                <img src="images/employer1.jpg" alt="Employer 1">
+                <figcaption>Employer 1</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employer2.jpg" alt="Employer 2">
+                <figcaption>Employer 2</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employer3.jpg" alt="Employer 3">
+                <figcaption>Employer 3</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 Edward's Rafting Company | Joaquin Eduardo Caceres Bello</p>
+        <nav class="footer-nav">
+            <a href="images/contact-wireframe.png">Contact Us Wireframe</a>
+            <div class="social-links">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.webp" alt="facebook icon" width="50">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twiter.webp" alt="twitter icon" width="50">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.webp" alt="instagram icon" width="50">
+                </a>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>
