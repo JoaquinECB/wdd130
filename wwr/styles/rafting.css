@@ -138,12 +138,6 @@ footer nav.footer-nav .social-links {
     font-weight: bold;
 }
 
-#contact-form {
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0;
-}
-
 #contact-form fieldset {
     border: 1px solid #ccc;
     padding: 1rem;
@@ -193,10 +187,6 @@ footer nav.footer-nav .social-links {
 
 #contact-form button:hover {
     background-color: #145a86;
-}
-
-.center-text {
-    text-align: center;
 }
 
 .center-content {
