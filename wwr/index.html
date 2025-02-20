@@ -16,7 +16,7 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body id="home-page">
     <header>
         <div class="header-grid">
             <img src="images/logo.jpeg" alt="logo" width="100">
@@ -31,23 +31,27 @@
         </div>
     </header>
     <main>
-        <div class="divhero">
-            <img src="images/main-imagen.jpg" alt="Rafting Adventure">
-            <h1>Welcome to Edward's Rafting Company</h1>
+        <div class="hero">
+            <img src="images/main-imagen.jpg" alt="Rafting Adventure" class="hero-image">
+            <h1 class="hero-text">Welcome to Edward's Rafting Company</h1>
         </div>
-        <section id="newsletter">
-            <h2 class="center-text">Subscribe to Our Newsletter</h2>
-            <form action="#" method="post" class="center-content">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <button type="submit">Subscribe</button>
-            </form>
-        </section>
-        <section id="call-to-action" class="center-content">
-            <h2>Ready for an Adventure?</h2>
-            <a href="trips.html" class="button">Check Out Our Trips</a>
+        <section id="newsletter-calltoaction">
+            <fieldset>
+                <legend>
+                    <h2 class="center-text">Stay Connected</h2>
+                </legend>
+                <form action="#" method="post" class="center-content">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="center-content">
+                    <h2>Ready for an Adventure?</h2>
+                    <a href="trips.html" class="button">Check Out Our Trips</a>
+                </div>
+            </fieldset>
         </section>
         <section id="about-us">
             <h2 class="center-text">About Us</h2>

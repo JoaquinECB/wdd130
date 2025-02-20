@@ -198,3 +198,109 @@ footer nav.footer-nav .social-links {
     flex-direction: column;
     align-items: flex-start;
 }
+
+#contact-page main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#contact-page main div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#contact-page main figure img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#home-page .hero {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+#home-page .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#home-page .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#home-page #newsletter-calltoaction {
+    margin: 2rem 0;
+}
+
+#home-page #newsletter-calltoaction fieldset {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#home-page #newsletter-calltoaction legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#home-page .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#home-page .adventures-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+#home-page .adventures-grid figure {
+    text-align: center;
+}
+
+#home-page .adventures-grid img {
+    width: 50%;
+    height: 200px;
+    /* Ajusta la altura según sea necesario */
+    object-fit: cover;
+}
+
+#home-page .adventures-grid figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+#home-page .button {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#home-page .button:hover {
+    background-color: #145a86;
+}
