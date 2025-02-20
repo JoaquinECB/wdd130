@@ -105,13 +105,13 @@ p {
     font-weight: bold;
 }
 
-footer nav.footer-nav {
+.footer-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
-footer nav.footer-nav .social-links {
+.footer-nav .social-links {
     display: flex;
     gap: 1rem;
 }
@@ -219,6 +219,22 @@ footer nav.footer-nav .social-links {
     object-fit: cover;
 }
 
+#contact-page .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact-page .footer-nav a {
+    margin-right: auto;
+}
+
+#contact-page .footer-nav .social-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
 #home-page .hero {
     position: relative;
     width: 100%;
@@ -282,7 +298,6 @@ footer nav.footer-nav .social-links {
 #home-page .adventures-grid img {
     width: 50%;
     height: 200px;
-    /* Ajusta la altura según sea necesario */
     object-fit: cover;
 }
 
@@ -303,4 +318,76 @@ footer nav.footer-nav .social-links {
 
 #home-page .button:hover {
     background-color: #145a86;
+}
+
+#trip-descriptions .trips-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+#trip-descriptions .trip-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#trip-descriptions .trip-item:nth-child(odd) {
+    flex-direction: row;
+}
+
+#trip-descriptions .trip-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#trip-descriptions .trip-item img {
+    width: 50%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+#trip-descriptions .trip-item figcaption {
+    flex: 1;
+}
+
+#trip-summary table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#trip-summary th,
+#trip-summary td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#trip-summary th {
+    background-color: #f2f2f2;
+}
+
+#trip-summary tbody {
+    display: table-row-group;
+}
+
+#trip-summary tbody tr {
+    display: table-row;
+}
+
+#trips-page .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#trips-page .footer-nav a {
+    margin-right: auto;
+}
+
+#trips-page .footer-nav .social-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
 }
